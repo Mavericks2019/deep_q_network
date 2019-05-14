@@ -1,54 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23d79e05-7f48-4363-b0fe-4ed382c3b87e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deep_q.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/networks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/audio/die.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/audio/die.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/audio/hit.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/audio/hit.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/audio/point.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/audio/point.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/audio/swoosh.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/audio/swoosh.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/audio/wing.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/audio/wing.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/background-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/base.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/pipe-green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/redbird-downflap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/redbird-midflap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/redbird-upflap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/pipe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/agent_constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/game_constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/img_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/network_functions.py" afterDir="false" />
+    <list default="true" id="23d79e05-7f48-4363-b0fe-4ed382c3b87e" name="Default Changelist" comment="init_commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/agent/agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/game.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/img_functions.py">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="125">
+              <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -70,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game/pipe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="100">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -83,19 +39,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/python_venv/deep_q/Lib/site-packages/tensorflow/python/client/session.py">
+        <entry file="file://D:/python_venv/deep_q/Lib/site-packages/tensorflow/python/ops/array_ops.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33100">
-              <caret line="1347" selection-start-line="1347" selection-end-line="1347" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/agent_constants.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+            <state relative-caret-position="50175">
+              <caret line="2035" column="4" selection-start-line="2035" selection-start-column="4" selection-end-line="2035" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -103,11 +50,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent/agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2350">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="329">
+              <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -115,44 +71,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent/networks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="75">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2325">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="-446">
+              <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#2675#3270#0" />
+                <element signature="e#3325#3797#0" />
+                <element signature="e#3835#4346#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/functions.py">
+        <entry file="file://$PROJECT_DIR$/game/player.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="275">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/network_functions.py">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -160,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/game_constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2625">
-              <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+            <state relative-caret-position="378">
+              <caret line="106" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -197,10 +149,10 @@
         <option value="$PROJECT_DIR$/utils/game_constants.py" />
         <option value="$PROJECT_DIR$/agent/networks.py" />
         <option value="$PROJECT_DIR$/utils/network_functions.py" />
-        <option value="$PROJECT_DIR$/game/game.py" />
         <option value="$PROJECT_DIR$/utils/functions.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/agent/agent.py" />
+        <option value="$PROJECT_DIR$/game/game.py" />
       </list>
     </option>
   </component>
@@ -216,8 +168,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="deep_q" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_q" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_q" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_q" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,18 +268,34 @@
       <option name="presentableId" value="Default" />
       <updated>1557469648185</updated>
     </task>
+    <task id="LOCAL-00001" summary="init_commit">
+      <created>1557807611040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557807611040</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init_commit">
+      <created>1557818994271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557818994271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15015806" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15015806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.47778982" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37201735" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -344,20 +327,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init_commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init_commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/agent/agent.py</url>
-          <line>113</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/agent/agent.py</url>
-          <line>123</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -370,6 +345,53 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
+        <expression-string>print(feed_dict)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>feed_dict={
+            self.y_input: y_batch,
+            self.action_input: action_batch,
+            self.target_q_network.stateInput: state_batch
+        }</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.train_step.run(feed_dict={
+            self.y_input: y_batch,
+            self.action_input: action_batch,
+            self.target_q_network.stateInput: state_batch
+        })</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.train_step.run(feed_dict={
+            self.y_input: y_batch,
+            self.action_input: action_batch,
+            self.target_q_network.stateInput: state_batch})</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.train_step.run(feed_dict={
+            self.y_input: y_batch,
+            self.action_input: action_batch,
+            self.target_q_network.stateInput: state_batch</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>train_step.run(feed_dict={
+            self.y_input: y_batch,
+            self.action_input: action_batch,
+            self.target_q_network.stateInput: state_batch</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>{'x': self.playerx, 'y': self.playery,
                                'index': self.playerIndex}</expression-string>
         <language-id>Python</language-id>
@@ -378,37 +400,47 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>self.target_q_network</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.q_network.stateInput</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.q_network</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>q_network</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.target_q_network.stateInput</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.target_q_network.stateInput: state_batch</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.train()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>state_batch[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>state_batch</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>image_data</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>player</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>PLAYER_HEIGHT</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>self.lowerPipes</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>self.upperPipes</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cv2.threshold(image_data, 1, 255, cv2.THRESH_BINARY)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -447,98 +479,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/player.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/python/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8000">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python_venv/deep_q/Lib/site-packages/tensorflow/python/client/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33100">
-          <caret line="1347" selection-start-line="1347" selection-end-line="1347" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/agent_constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/agent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2350">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/networks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2325">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/game_constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="-371">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -546,13 +489,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/network_functions.py">
+    <entry file="file://D:/python_venv/deep_q/Lib/site-packages/tensorflow/python/client/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="1333" selection-start-line="1333" selection-end-line="1333" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python_venv/deep_q/Lib/site-packages/tensorflow/_api/v1/train/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/software/python/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7750">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
         </state>
       </provider>
     </entry>
@@ -566,12 +516,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/pipe.py">
+    <entry file="file://$PROJECT_DIR$/utils/agent_constants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/network_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python_venv/deep_q/Lib/site-packages/tensorflow/python/ops/array_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50175">
+          <caret line="2035" column="4" selection-start-line="2035" selection-start-column="4" selection-end-line="2035" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/pipe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saved_networks/network-dqn-30000.meta">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/game_constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="106" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/networks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-446">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding>
+            <element signature="e#2675#3270#0" />
+            <element signature="e#3325#3797#0" />
+            <element signature="e#3835#4346#0" />
           </folding>
         </state>
       </provider>

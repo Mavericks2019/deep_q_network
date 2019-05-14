@@ -7,9 +7,6 @@ from utils.agent_constants import INITIAL_EPSILON, FRAME_PER_ACTION, FINAL_EPSIL
     BATCH_SIZE, GAMMA, UPDATE_TIME
 
 
-tf.mul = tf.multiply
-
-
 class Agent:
     def __init__(self, actions):
         # init replay memory
@@ -22,6 +19,8 @@ class Agent:
         self.q_network = Network(actions)
         self.target_q_network = Network(actions)
 
+        self.action_input, self.y_input, self.q_action, self.cost, self.train_step = self.create_training_method()
+
         self.session = tf.InteractiveSession()
         self.session.run(tf.initialize_all_variables())
 
@@ -30,7 +29,6 @@ class Agent:
 
         self.__saving_and_loading_networks()
         self.current_state = None
-        self.action_input, self.y_input, self.q_action, self.cost, self.train_step = self.create_training_method()
 
     def __copy_target_q_network(self):
         copy_target_q_network_operation = [self.target_q_network.w_conv1.assign(self.q_network.w_conv1),
@@ -57,7 +55,7 @@ class Agent:
     def create_training_method(self):
         action_input = tf.placeholder("float", [None, self.actions])
         y_input = tf.placeholder("float", [None])
-        q_action = tf.reduce_sum(tf.mul(self.q_network.QValue, action_input), reduction_indices=1)
+        q_action = tf.reduce_sum(tf.multiply(self.q_network.QValue, action_input), reduction_indices=1)
         cost = tf.reduce_mean(tf.square(y_input - q_action))
         train_step = tf.train.AdamOptimizer(1e-6).minimize(cost)
         return action_input, y_input, q_action, cost, train_step
@@ -124,7 +122,7 @@ class Agent:
         self.train_step.run(feed_dict={
             self.y_input: y_batch,
             self.action_input: action_batch,
-            self.target_q_network.stateInput: state_batch
+            self.q_network.stateInput: state_batch
         })
         # save network every 100000 iteration
         if self.time_step % 10000 == 0:
