@@ -78,9 +78,9 @@ class Game(Pipe, Player, Base):
             lPipe['x'] += self.pipeVelX
         # add new pipe when first pipe is about to touch left of screen
         if 0 < self.upperPipes[0]['x'] < 5:
-            newPipe = Pipe.get_random_pipe()
-            self.upperPipes.append(newPipe[0])
-            self.lowerPipes.append(newPipe[1])
+            new_pipe = Pipe.get_random_pipe()
+            self.upperPipes.append(new_pipe[0])
+            self.lowerPipes.append(new_pipe[1])
         # remove first pipe if its out of the screen
         if self.upperPipes[0]['x'] < -PIPE_WIDTH:
             self.upperPipes.pop(0)
