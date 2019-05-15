@@ -80,8 +80,8 @@ class Agent:
 
         return action
 
-    def set_init_state(self, ing_data):
-        self.current_state = np.stack((ing_data, ing_data, ing_data, ing_data), axis=2)
+    def set_init_state(self, img_data):
+        self.current_state = np.stack((img_data, img_data, img_data, img_data), axis=2)
 
     def set_perception(self, image_data, action, reward, terminal):
         new_state = np.append(self.current_state[:, :, 1:], image_data, axis=2)
