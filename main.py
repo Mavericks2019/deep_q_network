@@ -6,6 +6,8 @@ from agent.agent import Agent
 
 
 def _play(game, action):
+    # action[0] == 1: do nothing
+    # action[1] == 1: flap the bird
     image_data, reward, terminal = game.frame_step(action)
     image_data = reshape(image_data)
     return image_data, reward, terminal
