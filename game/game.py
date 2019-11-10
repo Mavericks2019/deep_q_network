@@ -37,7 +37,7 @@ class Game(Pipe, Player, Base):
             raise ValueError('Multiple input actions!')
         # input_actions[0] == 1: do nothing
         # input_actions[1] == 1: flap the bird
-        if input_actions[1] != 1:
+        if input_actions[1] == 1:
             if self.playery > -2 * PLAYER_HEIGHT:
                 self.playerVelY = self.playerFlapAcc
                 self.playerFlapped = True
